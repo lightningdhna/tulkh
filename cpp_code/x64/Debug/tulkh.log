@@ -1,0 +1,5 @@
+﻿  main.cpp
+E:\CODE\tulkh\tulkh\cpp_code\main.cpp(7,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\CODE\tulkh\tulkh\cpp_code\main.cpp(8,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\CODE\tulkh\tulkh\cpp_code\main.cpp(21,15): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+  tulkh.vcxproj -> E:\CODE\tulkh\tulkh\cpp_code\x64\Debug\tulkh.exe
