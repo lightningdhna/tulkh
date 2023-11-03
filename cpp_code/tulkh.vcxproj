@@ -119,10 +119,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BABAlgorithm.hpp" />
+    <ClCompile Include="Judge.hpp" />
+    <ClCompile Include="Problem.hpp" />
+    <ClCompile Include="Solver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
+    <Text Include="my_output.txt" />
+    <Text Include="output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LargeNeiborhoodSearch.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="note.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

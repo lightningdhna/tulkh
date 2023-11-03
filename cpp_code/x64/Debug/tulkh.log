@@ -1,5 +1,13 @@
-﻿  main.cpp
-E:\CODE\tulkh\tulkh\cpp_code\main.cpp(7,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\CODE\tulkh\tulkh\cpp_code\main.cpp(8,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-E:\CODE\tulkh\tulkh\cpp_code\main.cpp(21,15): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
-  tulkh.vcxproj -> E:\CODE\tulkh\tulkh\cpp_code\x64\Debug\tulkh.exe
+﻿  BABAlgorithm.hpp
+E:\CODE\tulkh\tulkh\cpp_code\BABAlgorithm.hpp(19,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\CODE\tulkh\tulkh\cpp_code\BABAlgorithm.hpp(36,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Solver.cpp
+E:\CODE\tulkh\tulkh\cpp_code\BABAlgorithm.hpp(19,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\CODE\tulkh\tulkh\cpp_code\BABAlgorithm.hpp(36,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\CODE\tulkh\tulkh\cpp_code\LargeNeiborhoodSearch.hpp(18,19): error C2061: syntax error: identifier 'rd'
+E:\CODE\tulkh\tulkh\cpp_code\LargeNeiborhoodSearch.hpp(55,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\CODE\tulkh\tulkh\cpp_code\LargeNeiborhoodSearch.hpp(71,1): error C3867: 'LNS::gen': non-standard syntax; use '&' to create a pointer to member
+E:\CODE\tulkh\tulkh\cpp_code\LargeNeiborhoodSearch.hpp(71,3): error C2672: 'shuffle': no matching overloaded function found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\algorithm(5363,6): message : could be 'void std::shuffle(_RanIt,_RanIt,_Urng &&)'
+E:\CODE\tulkh\tulkh\cpp_code\Solver.cpp(26,62): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Generating Code...

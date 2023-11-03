@@ -13,5 +13,47 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{6ffacbe3-5a86-42cb-b4b7-2411ff008f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{56023f54-175e-49c8-a6a3-cd1d4b21bf5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\algorithm">
+      <UniqueIdentifier>{5a87ee9b-b685-486f-a72a-8cb2ff93dbb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Judge.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem.hpp">
+      <Filter>Header Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="BABAlgorithm.hpp">
+      <Filter>Header Files\algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="output.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="my_output.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="input.txt">
+      <Filter>data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LargeNeiborhoodSearch.hpp">
+      <Filter>Header Files\algorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="note.md" />
   </ItemGroup>
 </Project>
